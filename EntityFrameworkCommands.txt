@@ -1,0 +1,7 @@
+dotnet restore
+cd src\MyProject
+dotnet ef
+
+dotnet ef migrations add MyMigration
+
+dotnet ef database update
