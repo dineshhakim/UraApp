@@ -21,6 +21,7 @@ namespace UraApp.Controllers
      
         // GET: api/values
         [HttpGet]
+        [Authorize]
         public IEnumerable<RoleType> Get()
         {
             return _service.GetAll();
