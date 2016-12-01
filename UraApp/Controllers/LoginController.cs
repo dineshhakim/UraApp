@@ -4,13 +4,15 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
- 
+
 using UraApp.Models;
 using UraApp.Services.Abstract;
 using UraApp.Utility;
+using Microsoft.AspNetCore.Cors;
 
 namespace UraApp.Controllers
 {
+    
     public class LoginController : Controller
     {
 

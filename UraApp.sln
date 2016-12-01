@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UraApp", "UraApp\UraApp.xproj", "{145BFAB1-EDE2-45AC-B828-89C8B9C148DC}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UraApp.API", "UraApp\UraApp.API.xproj", "{145BFAB1-EDE2-45AC-B828-89C8B9C148DC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UraApp.Client", "UraApp.Client\UraApp.Client.xproj", "{F3A25BC8-B2F5-44E9-A278-97760D41C5B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{145BFAB1-EDE2-45AC-B828-89C8B9C148DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{145BFAB1-EDE2-45AC-B828-89C8B9C148DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{145BFAB1-EDE2-45AC-B828-89C8B9C148DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A25BC8-B2F5-44E9-A278-97760D41C5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A25BC8-B2F5-44E9-A278-97760D41C5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A25BC8-B2F5-44E9-A278-97760D41C5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A25BC8-B2F5-44E9-A278-97760D41C5B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

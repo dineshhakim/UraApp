@@ -1,0 +1,5 @@
+--For Angular with asp.net core
+http://www.c-sharpcorner.com/article/getting-started-with-angular-application-using-visual-studio-code/
+
+-- For JWT tokens
+https://stormpath.com/blog/token-authentication-asp-net-core

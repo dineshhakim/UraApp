@@ -25,7 +25,7 @@ namespace UraApp
             {
                 // For more details on using the user secret store see 
                 // http://go.microsoft.com/fwlink/?LinkID=532709
-                builder.AddUserSecrets();
+                ///builder.AddUserSecrets();/
 
                 // This will push telemetry data through Application 
                 // Insights pipeline faster, allowing you to view results 
@@ -46,6 +46,15 @@ namespace UraApp
             services.AddApplicationInsightsTelemetry(Configuration);
             services.AddMvc();
             FactoryHelper.Create(services);
+            // Add service and create Policy with options
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddSingleton<IConfiguration>(_ => Configuration);
         }
 
@@ -59,16 +68,14 @@ namespace UraApp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
-                {
-                    HotModuleReplacement = true
-                });
+                 
             }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            // global policy - assign here or on each controller
+            app.UseCors("CorsPolicy");
             app.UseStaticFiles();
 
 
