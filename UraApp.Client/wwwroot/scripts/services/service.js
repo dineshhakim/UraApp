@@ -16,7 +16,7 @@
                 return $http.post(url, user);
             },
             deleteUser: function (user) {
-                var url = serviceurl + "DeleteUser/" + user.id;
+                var url = serviceurl + user.id;
                 return $http.delete(url);
             },
             updateUser: function (user) {

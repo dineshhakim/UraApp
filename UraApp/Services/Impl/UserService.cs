@@ -23,7 +23,11 @@ namespace UraApp.Services.Impl
 
         public User Add(User entity)
         {
-
+            //Hardcoded for now
+            if (entity.Password==null)
+            {
+                entity.Password = "Admin@123";
+            }
             entity.Password = EncryptionHelper.GetHash(entity.Password);
             User entity1 = entity;
             var user = repository.Get(x => (x.UserName == entity1.UserName));
@@ -64,7 +68,7 @@ namespace UraApp.Services.Impl
 
         public User GetById(long id)
         {
-            throw new NotImplementedException();
+            return repository.GetById(id);
         }
 
         public User GetById(int id)
