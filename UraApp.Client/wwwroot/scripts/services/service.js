@@ -12,7 +12,7 @@
                 return $http.get(url);
             },
             addUser: function (user) {
-                var url = serviceurl + "AddUser";
+                var url = serviceurl;
                 return $http.post(url, user);
             },
             deleteUser: function (user) {
