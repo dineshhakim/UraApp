@@ -1,5 +1,9 @@
 --For Angular with asp.net core
 http://www.c-sharpcorner.com/article/getting-started-with-angular-application-using-visual-studio-code/
 
--- For JWT tokens
+-- For JWT tokens implemented in .net core
 https://stormpath.com/blog/token-authentication-asp-net-core
+
+
+--Jwt tokens to implement in front end using angular
+https://thinkster.io/angularjs-jwt-auth
