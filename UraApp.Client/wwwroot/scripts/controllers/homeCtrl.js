@@ -1,4 +1,4 @@
-﻿define(['app', 'service'], function (app) {
+﻿define(['app', 'userService'], function (app) {
     app.controller("homeCtrl", function ($scope, userService) {
         $scope.users = [];
         $scope.user = null;

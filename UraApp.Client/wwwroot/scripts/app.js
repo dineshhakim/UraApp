@@ -54,7 +54,7 @@ function authService($window) {
 
 }
 
-function userService($http, API, auth) {
+function userTokenService($http, API, auth) {
     var srvc = this;
     srvc.getQuote = function () {
         return $http.get(API + '/auth/quote')

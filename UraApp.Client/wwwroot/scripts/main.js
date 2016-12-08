@@ -7,7 +7,7 @@
         'ui-router': 'libs/angular-ui-router',
         'jquery': 'libs/jquery-1.10.2',
         'bootstrap': 'libs/bootstrap',
-        'service': 'services/service',
+        'userService': 'services/userService',
         'homeCtrl': "controllers/homeCtrl",
         'accountCtrl': "controllers/accountCtrl",
         'userCtrl': "controllers/userCtrl",
