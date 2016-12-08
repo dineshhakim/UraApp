@@ -1,0 +1,11 @@
+﻿<div ng-controller="userCtrl as main" class="container">
+    <h1>Ura App</h1>
+    <input type="text" class="form-control" ng-model="main.username" placeholder="username"><br>
+    <input type="password" class="form-control" ng-model="main.password" placeholder="password"><br>
+    <br>
+    <button class="btn" ng-click="main.register()">Register</button>
+    <button class="btn" ng-click="main.login()">Login</button>
+    <button class="btn" ng-click="main.logout()" ng-show="main.isAuthed()">Logout</button> 
+    <br><br>
+    {{main.message}}
+</div>
