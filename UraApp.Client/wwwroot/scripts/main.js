@@ -10,6 +10,7 @@
         'service': 'services/service',
         'homeCtrl': "controllers/homeCtrl",
         'accountCtrl': "controllers/accountCtrl",
+        'userCtrl': "controllers/userCtrl",
         'filter': "filters/filter",
     },
     shim: {
@@ -40,7 +41,8 @@ require([
     "filter",
     "bootstrap",
     "homeCtrl",
-    "accountCtrl"
+    "accountCtrl",
+    "userCtrl"
 ],
 
     function (app) {

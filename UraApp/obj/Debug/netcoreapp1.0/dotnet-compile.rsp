@@ -231,8 +231,8 @@ S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\LoginController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\HomeController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\CompaniesController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\SampleDataController.cs
-S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\RoleTypeController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\PortfoliosController.cs
+S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\RoleTypeController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\UserController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Controllers\UserServiceController.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Services\Impl\PortfolioService.cs
@@ -261,12 +261,12 @@ S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\FormFileExtensions.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\SessionExtensions.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\TokenProviderMiddleware.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\TokenProviderOptions.cs
-S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\IdentityClaims.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\CustomJwtDataFormat.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\UserSession.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\FactoryHelper.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\TokenProviderAppBuilderExtensions.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\AppDependencyResolver.cs
+S:\Projects\UraApp\UraApp.git\trunk\UraApp\Utility\IdentityClaims.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Repository\Impl\PortfolioRepository.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Repository\Impl\UserRepository.cs
 S:\Projects\UraApp\UraApp.git\trunk\UraApp\Repository\Impl\RoleTypeRepository.cs

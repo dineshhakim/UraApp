@@ -17,10 +17,11 @@
             },
             deleteUser: function (user) {
                 var url = serviceurl + user.id;
+                alert(JSON.stringify(user));
                 return $http.delete(url);
             },
             updateUser: function (user) {
-                var url = serviceurl + user.id;
+                var url = serviceurl + user.id;             
                 return $http.put(url, user);
             }
         };
